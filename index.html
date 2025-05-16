@@ -373,14 +373,12 @@
             background: linear-gradient(135deg, #4cc9f0 0%, #4895ef 100%);
         }
 
-     <a href="/Tool/img-compess.html" class="tool-card-compressor" style="text-decoration: none; color: inherit;">
-    <div class="tool-card-header">
-        Compressor Tool
-    </div>
-    <button class="btn">Try Now</button>
-</a>
-
-
+        .tool-card-compressor .tool-card-header {
+            background: linear-gradient(135deg, #f8961e 0%, #f3722c 100%);
+        }
+        .tool-card-compressor .btn {
+            background: linear-gradient(135deg, #f8961e 0%, #f3722c 100%);
+        }
 
         /* Rest of your existing CSS... */
         /* (Keep all the other CSS from previous version) */
@@ -421,16 +419,19 @@
             
             <div class="tools-grid">
                 <!-- Image Tools -->
-                <div class="tool-card tool-card-image">
-                    <div class="tool-card-header">
-                        <i class="fas fa-file-image"></i>
-                        <h3>Image Compressor</h3>
-                    </div>
-                    <div class="tool-card-body">
-                        <p>Reduce image file size without losing quality. Supports JPG, PNG, and WebP formats.</p>
-                        <a href="/image-compressor" class="btn">Use Tool</a>
-                    </div>
-                </div>
+               <a href="/Tool/image-compressor" class="tool-card-link">
+    <div class="tool-card tool-card-image">
+        <div class="tool-card-header">
+            <i class="fas fa-file-image"></i>
+            <h3>Image Compressor</h3>
+        </div>
+        <div class="tool-card-body">
+            <p>Reduce image file size without losing quality. Supports JPG, PNG, and WebP formats.</p>
+            <span class="btn">Use Tool</span>
+        </div>
+    </div>
+</a>
+
                 
                 <div class="tool-card tool-card-converter">
                     <div class="tool-card-header">
